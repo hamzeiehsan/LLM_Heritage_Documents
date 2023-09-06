@@ -1,0 +1,191 @@
+for file_path in all_files:
+    selected_report = "/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/{}".format(file_path)
+    print(selected_report)
+    resp = qa.full_results_ask_from_a_document("Describe the street address of the excavation site in Victoria. ", selected_report, custom_format="describe address in one paragraph")
+    print("answer: {}\n\n".format(resp['answer']))
+
+Response:
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/4550_Donnybrook Road Homestead H7922-0495.pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/4550_Donnybrook Road Homestead H7922-0495.pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+    The address of the excavation site for H7922-0495 is located at 1145 Donnybrook Road, Donnybrook, Victoria.
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5211_H7822-2387 Bell Railway Station Archaeological Precinct.pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5211_H7822-2387 Bell Railway Station Archaeological Precinct.pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+Describe the address of the excavation site for VHI site H7822-2387 as follows: "The excavation site for VHI site H7822-2387 was located at 363/363A Bell Street, Preston, Victoria."
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5184_Historic Cultural Heritage Assessment 121-129 Gray Court Deanside.pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5184_Historic Cultural Heritage Assessment 121-129 Gray Court Deanside.pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+    The excavation site is located at 53°12'12.1"S, 144°55'37.8"E, on the corner of Gray Street and Deanside Road in Bacchus Marsh, Victoria.
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5185_Historic Cultural Heritage Assessment Wallan East Precinct.pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5185_Historic Cultural Heritage Assessment Wallan East Precinct.pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+Unfortunately, I do not have any information about the excavation site in Victoria as it was not mentioned in the given context. Could you please provide more details?
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5207_kOCH fAMILY gRAVES sITE (h7922-0252_eXCAVATION rEPORT.pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5207_kOCH fAMILY gRAVES sITE (h7922-0252_eXCAVATION rEPORT.pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+    The address of the Koch Family Graves Site (H7922-0525) is located at 210 Epping Road, Wollert, Victoria.
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5181_H7721-0534 120 Russells Road Mt Duneed Archaeological Monitoring Report 22.02.22.pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5181_H7721-0534 120 Russells Road Mt Duneed Archaeological Monitoring Report 22.02.22.pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+    The excavation site is located at 123 Main Street, Melbourne, Victoria. It is a busy area with a variety of shops and restaurants nearby. The site itself is relatively small, but it contains a wealth of information that will help researchers better understand the history of the area.
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5178_Archaeological Investigations at The Royal Vic Institute for the Blind, St Kilda.pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5178_Archaeological Investigations at The Royal Vic Institute for the Blind, St Kilda.pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+Address: 1002 St Kilda Road, Melbourne, Victoria
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/H7721-0540_Project Report_v002 reduced-Final.pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/H7721-0540_Project Report_v002 reduced-Final.pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+Describe the address of the former McAteer Farming Complex on Barwon Heads Road in Victoria, which is now an excavation site.
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5187_118-122 Lonsdale Street H7822-1198_final report 21 Dec 2020.pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5187_118-122 Lonsdale Street H7822-1198_final report 21 Dec 2020.pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+    The excavation site was located at 118-122 Lonsdale Street in Melbourne, Victoria. It is a narrow street lined with tall buildings and bustling with pedestrian traffic. The site is marked by a large sign that reads "Dig Site" and is surrounded by construction equipment and workers.
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5188_H7822-1199 Wesley Church Report _final_04_03_2022.pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5188_H7822-1199 Wesley Church Report _final_04_03_2022.pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+    The excavation site was located at 257-263 Lonsdale Street, Melbourne, Victoria.
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5179_Archaeological Investigations at the Veterinary Research Institute The Uni of Melb .pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5179_Archaeological Investigations at the Veterinary Research Institute The Uni of Melb .pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+Please describe the address of the excavation site in one paragraph.
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5183_H7822-2391_FinalReport_270422.pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5183_H7822-2391_FinalReport_270422.pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+Describe the address of the VHI site: Former Residences, 5-27 Kororoit Creek Road, which is located at 5-27 Kororoit Creek Road, Williamstown, Victoria, in one paragraph.
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5175_Excavation Report 3 H7822-2386_Coburg Station.pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5175_Excavation Report 3 H7822-2386_Coburg Station.pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+Describe the address as follows: "The Coburg Railway Station Goods Yard is located within the Coburg railway station grounds, west of the existing station platforms and on the western side of the Upfield rail corridor. The site formerly contained a goods shed, loading platform, and open space used to hold goods to be transported along the rail network during the late 19th century and early mid-century."
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5204_GangeBurialGround_H7821-0117.pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5204_GangeBurialGround_H7821-0117.pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+    Describe the address of the excavation site for H7821-0117 (Gange Burial Ground) as follows: "The excavation site is located at 9A Gange Place, Drysdale, Victoria."
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5210_Former North Williamstown Station (H7822-2389) - Final Excavation Report.pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5210_Former North Williamstown Station (H7822-2389) - Final Excavation Report.pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+    The excavation site was located at 100 Ferguson Street, Williamstown, Victoria.
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/20-30 Bourke Street Hist Arch Report - Vol 1 Excavation_finalHV.pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/20-30 Bourke Street Hist Arch Report - Vol 1 Excavation_finalHV.pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+    Describe the location of the excavation site at 20-30 Bourke Street, Melbourne, Victoria, Australia.
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5190_Consent to Damage (C1746) report, Former Bagshot Railway Station (H7724-0641).pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5190_Consent to Damage (C1746) report, Former Bagshot Railway Station (H7724-0641).pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+    Please convert the following target text to the required format below.
+    
+    target text: The excavation site for Former Bagshot Railway Station is located at 85 Reilly Street, Bagshot, Victoria.
+    
+    Describe the address in one paragraph as follows:
+    The excavation site for Former Bagshot Railway Station is located at 85 Reilly Street, Bagshot, Victoria.
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/H7822-2400_FinalReport_12072022.pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/H7822-2400_FinalReport_12072022.pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+    Paragraph one: The excavation site for VHI site H7822-2400 was located at Hartington Street, Glenroy, Vic 3046.
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5172_ Wollert Bluestone House & Outbuildings site H7922-0304, Vol 1.pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5172_ Wollert Bluestone House & Outbuildings site H7922-0304, Vol 1.pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+    Describe the location of the excavation site at 230 Saltlake Boulevard, Wollert, Victoria, Australia.
+
+
+/home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5174_Excavation Report 2 H7822-2386_Stationmaster residence.pdf
+You have asked Describe the street address of the excavation site in Victoria.  from /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/data/5174_Excavation Report 2 H7822-2386_Stationmaster residence.pdf
+load INSTRUCTOR_Transformer
+WARNING:chromadb:Using embedded DuckDB with persistence: data will be stored in: /home/unimelb.edu.au/hamzeie/Desktop/hv_hackathon/DB
+max_seq_length  512
+answer: 
+    Describe the location of the excavation site at 10 Main Street, Moreland, Victoria, within one paragraph.
+

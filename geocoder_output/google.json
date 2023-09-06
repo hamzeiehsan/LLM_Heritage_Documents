@@ -1,0 +1,442 @@
+{
+  "20-30 Bourke Street Hist Arch Report - Vol 1 Excavation_finalHV.pdf.json": {
+    "0": {
+      "answer": "\n    Describe the location of the excavation site at 20-30 Bourke Street, Melbourne, Victoria, Australia.",
+      "lat": -37.8113828,
+      "lon": 144.9722415
+    },
+    "1": {
+      "answer": " The excavation site was located at the corner of Swanston and Franklin streets in Melbourne, Victoria, Australia.",
+      "lat": -37.8073454,
+      "lon": 144.9628678
+    },
+    "2": {
+      "answer": "Example: The Bourke Street archaeological site is located in the heart of Melbourne\u2019s CBD area, at the corner of Bourke and Spring Streets.",
+      "lat": -37.8137685,
+      "lon": 144.9644379
+    },
+    "3": {
+      "answer": " The excavation site is located in Melbourne City Centre, specifically at 20-30 Bourke Street.",
+      "lat": -37.8113828,
+      "lon": 144.9722415
+    }
+  },
+  "4550_Donnybrook Road Homestead H7922-0495.pdf.json": {
+    "0": {
+      "answer": "\n    The address of the excavation site for H7922-0495 is located at 1145 Donnybrook Road, Donnybrook, Victoria.",
+      "lat": -37.5461232,
+      "lon": 145.0050769
+    },
+    "1": {
+      "answer": "\nExample:The excavation site is located at Donnybrook, Victoria.",
+      "lat": -37.5425658,
+      "lon": 144.9687496
+    },
+    "2": {
+      "answer": "Example: The archaeology site could be located anywhere throughout Victoria, depending on the specific site in question.",
+      "lat": 48.4284207,
+      "lon": -123.3656444
+    },
+    "3": {
+      "answer": "The excavation site is located at Donnybrook Road Homestead Site, which is within the LGA of Berwick Shire, Victoria.",
+      "lat": -38.0309443,
+      "lon": 145.3437469
+    }
+  },
+  "5172_ Wollert Bluestone House & Outbuildings site H7922-0304, Vol 1.pdf.json": {
+    "0": {
+      "answer": "\n    Describe the location of the excavation site at 230 Saltlake Boulevard, Wollert, Victoria, Australia.",
+      "lat": -37.623407,
+      "lon": 145.0391529
+    },
+    "1": {
+      "answer": " The excavation site was located in the township of Bendigo, approximately 100km northwest of Melbourne, Victoria, Australia.",
+      "lat": -37.8136276,
+      "lon": 144.9630576
+    },
+    "2": {
+      "answer": " The archaeology site is located in Melbourne, Victoria, Australia.",
+      "lat": -37.8136276,
+      "lon": 144.9630576
+    },
+    "3": {
+      "answer": " The excavation site is located in the township of Whittlesea, approximately 50km north-east of Melbourne.",
+      "lat": -37.5382852,
+      "lon": 145.093449
+    }
+  },
+  "5174_Excavation Report 2 H7822-2386_Stationmaster residence.pdf.json": {
+    "0": {
+      "answer": "\n    Describe the location of the excavation site at 10 Main Street, Moreland, Victoria, within one paragraph.",
+      "lat": -37.740126,
+      "lon": 144.962885
+    },
+    "1": {
+      "answer": " The excavation site was located at the corner of Swanston and Franklin streets in Melbourne, Victoria, Australia.",
+      "lat": -37.8073454,
+      "lon": 144.9628678
+    },
+    "2": {
+      "answer": "\nExample: The former stationmaster's residence and rifle range in the suburbs of Melbourne, Victoria, Australia is located in a rural area.",
+      "lat": -37.8610464,
+      "lon": 144.8824192
+    },
+    "3": {
+      "answer": " The excavation site is located at the corner of Station Street and Elizabeth Street in Coburg, within the City of Moreland.",
+      "lat": -37.7378229,
+      "lon": 144.9820324
+    }
+  },
+  "5175_Excavation Report 3 H7822-2386_Coburg Station.pdf.json": {
+    "0": {
+      "answer": "\nDescribe the address as follows: \"The Coburg Railway Station Goods Yard is located within the Coburg railway station grounds, west of the existing station platforms and on the western side of the Upfield rail corridor. The site formerly contained a goods shed, loading platform, and open space used to hold goods to be transported along the rail network during the late 19th century and early mid-century.\"",
+      "lat": -37.7412988,
+      "lon": 144.9666108
+    },
+    "1": {
+      "answer": "\nExample: The target text is not in the required format as it does not include a location name.",
+      "lat": null,
+      "lon": null
+    },
+    "2": {
+      "answer": "\nThe required format is not applicable here as there are no location names mentioned in the text.",
+      "lat": null,
+      "lon": null
+    },
+    "3": {
+      "answer": " The excavation site is located in the LGA of Coburg, Victoria.",
+      "lat": -37.7412988,
+      "lon": 144.9666108
+    }
+  },
+  "5178_Archaeological Investigations at The Royal Vic Institute for the Blind, St Kilda.pdf.json": {
+    "0": {
+      "answer": "\nAddress: 1002 St Kilda Road, Melbourne, Victoria",
+      "lat": -37.8546165,
+      "lon": 144.9824964
+    },
+    "1": {
+      "answer": "\nExample: The main findings from the archaeological investigation of the RVIB site include evidence of an 1850s ephemeral settlement, a 1880s cottage hospital and nursery, a 1930s playground, and a World War II air raid trench.",
+      "lat": -37.847613,
+      "lon": 144.980114
+    },
+    "2": {
+      "answer": " The archaeology site is located in Melbourne, Victoria, Australia.",
+      "lat": -37.8136276,
+      "lon": 144.9630576
+    },
+    "3": {
+      "answer": " The excavation site is located in Melbourne, specifically within the boundaries of St Kilda Road.",
+      "lat": -37.8427922,
+      "lon": 144.9777066
+    }
+  },
+  "5179_Archaeological Investigations at the Veterinary Research Institute The Uni of Melb .pdf.json": {
+    "0": {
+      "answer": "\nPlease describe the address of the excavation site in one paragraph.",
+      "lat": null,
+      "lon": null
+    },
+    "1": {
+      "answer": "\nExample: The VRI site is located at the southern edge of the development footprint of the \nUniversity of Melbourne campus in Parkville, Victoria, bordered by Story Street to the north, \nPark Drive to the west, Flemington Road to the southwest, the Royal Melbourne Hospital to the \nsoutheast, and University High School to the east.",
+      "lat": -37.7787036,
+      "lon": 144.9426083
+    },
+    "2": {
+      "answer": " The archaeology site is located at the VRI at 30-36 Flemington Road, Parkville, Victoria.",
+      "lat": -37.7787036,
+      "lon": 144.9426083
+    },
+    "3": {
+      "answer": "Example: The excavation site is located at the corner of Swan Street and Franklin Street, within the City of Melbourne local government area.",
+      "lat": -37.8237566,
+      "lon": 144.9822789
+    }
+  },
+  "5181_H7721-0534 120 Russells Road Mt Duneed Archaeological Monitoring Report 22.02.22.pdf.json": {
+    "0": {
+      "answer": "\n    The excavation site is located at 123 Main Street, Melbourne, Victoria. It is a busy area with a variety of shops and restaurants nearby. The site itself is relatively small, but it contains a wealth of information that will help researchers better understand the history of the area.",
+      "lat": -38.2204419,
+      "lon": 145.0389708
+    },
+    "1": {
+      "answer": " The excavation site is located in Victoria, Australia.",
+      "lat": -36.9847807,
+      "lon": 143.3906074
+    },
+    "2": {
+      "answer": " The archaeology site is located in Victoria, Australia.",
+      "lat": -36.9847807,
+      "lon": 143.3906074
+    },
+    "3": {
+      "answer": "Example: The excavation site is located in the City of Greater Geelong local government area, which is known for its rich history and heritage.",
+      "lat": -37.9697434,
+      "lon": 144.3904526
+    }
+  },
+  "5183_H7822-2391_FinalReport_270422.pdf.json": {
+    "0": {
+      "answer": "\nDescribe the address of the VHI site: Former Residences, 5-27 Kororoit Creek Road, which is located at 5-27 Kororoit Creek Road, Williamstown, Victoria, in one paragraph.",
+      "lat": -37.8579906,
+      "lon": 144.8886163
+    },
+    "1": {
+      "answer": " The former residences of 5-27 Kororoit Creek Road, Melbourne, Victoria, Australia, are located approximately 10 kilometers southwest of the Melbourne city center, in the suburb of Southbank.",
+      "lat": -37.847435,
+      "lon": 144.8071745
+    },
+    "2": {
+      "answer": " The archaeology site is located at the intersection of Kororoit Creek Road and Lake Avenue, in Geelong, Victoria.",
+      "lat": -37.8501569,
+      "lon": 144.8356557
+    },
+    "3": {
+      "answer": " The excavation site is located in the City of Melbourne, specifically within the local government area of the former St Kilda municipality.",
+      "lat": -37.864,
+      "lon": 144.982
+    }
+  },
+  "5184_Historic Cultural Heritage Assessment 121-129 Gray Court Deanside.pdf.json": {
+    "0": {
+      "answer": "\n    The excavation site is located at 53\u00b012'12.1\"S, 144\u00b055'37.8\"E, on the corner of Gray Street and Deanside Road in Bacchus Marsh, Victoria.",
+      "lat": -37.6579928,
+      "lon": 144.4313944
+    },
+    "1": {
+      "answer": "\nExample: The excavation site is located at the corner of Grey Street and Market Square in downtown Sydney.",
+      "lat": -33.8688197,
+      "lon": 151.2092955
+    },
+    "2": {
+      "answer": " The archaeology site is located at the corner of Gray Court and Deanside in the city of Melbourne, Victoria, Australia.",
+      "lat": -37.7410334,
+      "lon": 144.7012061
+    },
+    "3": {
+      "answer": "Example: The excavation site is located at the corner of Swan Street and Franklin Street, within the City of Melbourne local government area.",
+      "lat": -37.8237566,
+      "lon": 144.9822789
+    }
+  },
+  "5185_Historic Cultural Heritage Assessment Wallan East Precinct.pdf.json": {
+    "0": {
+      "answer": "\nUnfortunately, I do not have any information about the excavation site in Victoria as it was not mentioned in the given context. Could you please provide more details?",
+      "lat": null,
+      "lon": null
+    },
+    "1": {
+      "answer": " The excavation site is located in Melbourne, Victoria, Australia.",
+      "lat": -37.8136276,
+      "lon": 144.9630576
+    },
+    "2": {
+      "answer": " The archaeology site is located in Victoria, Australia.",
+      "lat": -36.9847807,
+      "lon": 143.3906074
+    },
+    "3": {
+      "answer": "Example: The excavation site is located at the intersection of 123rd Street and 4th Avenue in New York City.",
+      "lat": 40.8038247,
+      "lon": -73.9401292
+    }
+  },
+  "5187_118-122 Lonsdale Street H7822-1198_final report 21 Dec 2020.pdf.json": {
+    "0": {
+      "answer": "\n    The excavation site was located at 118-122 Lonsdale Street in Melbourne, Victoria. It is a narrow street lined with tall buildings and bustling with pedestrian traffic. The site is marked by a large sign that reads \"Dig Site\" and is surrounded by construction equipment and workers.",
+      "lat": -37.8101839,
+      "lon": 144.9686511
+    },
+    "1": {
+      "answer": " The excavation site was located at the corner of Lonsdale and Russell Streets in Melbourne, Victoria, Australia.",
+      "lat": -37.8114475,
+      "lon": 144.9637219
+    },
+    "2": {
+      "answer": " The archaeology site is located at the corner of Lonsdale and Exhibition streets in Melbourne, Victoria, Australia.",
+      "lat": -37.8100597,
+      "lon": 144.9697004
+    },
+    "3": {
+      "answer": "\nExample: The excavation site is located in Melbourne's CBD, specifically at 118-122 Lonsdale Street.",
+      "lat": -37.8101839,
+      "lon": 144.9686511
+    }
+  },
+  "5188_H7822-1199 Wesley Church Report _final_04_03_2022.pdf.json": {
+    "0": {
+      "answer": "\n    The excavation site was located at 257-263 Lonsdale Street, Melbourne, Victoria.",
+      "lat": -37.811616,
+      "lon": 144.964774
+    },
+    "1": {
+      "answer": " The location of the excavation site of Wesley Church at H7822-1199 in Melbourne's CBD is within the area bounded by Spring Street, Collins Street, Bourke Street, and Elizabeth Street.",
+      "lat": -37.8102147,
+      "lon": 144.9682116
+    },
+    "2": {
+      "answer": "Example: The archaeology site is located in the heart of Melbourne, Australia, at the corner of Lonsdale and Russell Streets in Melbourne's Central Business District.",
+      "lat": -37.8108952,
+      "lon": 144.9671661
+    },
+    "3": {
+      "answer": " The excavation site is located at the corner of Elizabeth Street and Victoria Parade, in the heart of Melbourne's CBD, near the historic Wesley Church and bustling Jones Lane.",
+      "lat": -37.8061509,
+      "lon": 144.9592288
+    }
+  },
+  "5190_Consent to Damage (C1746) report, Former Bagshot Railway Station (H7724-0641).pdf.json": {
+    "0": {
+      "answer": "\n    Please convert the following target text to the required format below.\n    \n    target text: The excavation site for Former Bagshot Railway Station is located at 85 Reilly Street, Bagshot, Victoria.\n    \n    Describe the address in one paragraph as follows:\n    The excavation site for Former Bagshot Railway Station is located at 85 Reilly Street, Bagshot, Victoria.",
+      "lat": -36.6684939,
+      "lon": 144.4010957
+    },
+    "1": {
+      "answer": "\nExample: The excavation site was located at the former railway platform in Melbourne, Victoria.",
+      "lat": -37.8136276,
+      "lon": 144.9630576
+    },
+    "2": {
+      "answer": "Example: The archaeology site is located in Melbourne, Victoria, Australia.",
+      "lat": -37.8136276,
+      "lon": 144.9630576
+    },
+    "3": {
+      "answer": " The excavation site is located in the township of Bairnsdale, approximately 15 km east of the city of Traralgon in the Gippsland region of Victoria.",
+      "lat": -37.8366265,
+      "lon": 147.5993569
+    }
+  },
+  "5204_GangeBurialGround_H7821-0117.pdf.json": {
+    "0": {
+      "answer": "\n    Describe the address of the excavation site for H7821-0117 (Gange Burial Ground) as follows: \"The excavation site is located at 9A Gange Place, Drysdale, Victoria.\"",
+      "lat": -38.1545169,
+      "lon": 144.5826794
+    },
+    "1": {
+      "answer": " The excavation site was located at Drysdale, Victoria.",
+      "lat": -38.1728207,
+      "lon": 144.5708508
+    },
+    "2": {
+      "answer": " The Ganges Burial Ground site is located at 9A Gange Place, Drysdale, Victoria.",
+      "lat": -38.1728207,
+      "lon": 144.5708508
+    },
+    "3": {
+      "answer": "Example: The excavation site is located at the corner of High Street and Waterfront Road in the city of Melbourne, Victoria.",
+      "lat": -37.711601,
+      "lon": 145.0084447
+    }
+  },
+  "5207_kOCH fAMILY gRAVES sITE (h7922-0252_eXCAVATION rEPORT.pdf.json": {
+    "0": {
+      "answer": "\n    The address of the Koch Family Graves Site (H7922-0525) is located at 210 Epping Road, Wollert, Victoria.",
+      "lat": -37.6198256,
+      "lon": 145.0303474
+    },
+    "1": {
+      "answer": "\nExample: The excavation site is located in Wollert, Victoria, approximately 35 km north of Melbourne's CBD.",
+      "lat": -37.6085118,
+      "lon": 145.0313459
+    },
+    "2": {
+      "answer": " The archaeology site is located in Wollert, Victoria.",
+      "lat": -37.6085118,
+      "lon": 145.0313459
+    },
+    "3": {
+      "answer": " The excavation site is located at the corner of Hoddle Street and Queen Street in Collingwood, Victoria.",
+      "lat": -37.8126386,
+      "lon": 144.9597071
+    }
+  },
+  "5210_Former North Williamstown Station (H7822-2389) - Final Excavation Report.pdf.json": {
+    "0": {
+      "answer": "\n    The excavation site was located at 100 Ferguson Street, Williamstown, Victoria.",
+      "lat": -37.8586002,
+      "lon": 144.8968267
+    },
+    "1": {
+      "answer": " The archaeological excavation site was located in Melbourne, Victoria, Australia, specifically within the VHI site at Former North Williamstown Station.",
+      "lat": -37.6900192,
+      "lon": 145.0212146
+    },
+    "2": {
+      "answer": "Example: The VHI provides protection to heritage sites in Victoria, Australia.",
+      "lat": -36.9847807,
+      "lon": 143.3906074
+    },
+    "3": {
+      "answer": "Example: The excavation site for the archaeological investigation of Former North Williamstown Station is located in the City of Melbourne local government area.",
+      "lat": -37.8573294,
+      "lon": 144.888912
+    }
+  },
+  "5211_H7822-2387 Bell Railway Station Archaeological Precinct.pdf.json": {
+    "0": {
+      "answer": "\nDescribe the address of the excavation site for VHI site H7822-2387 as follows: \"The excavation site for VHI site H7822-2387 was located at 363/363A Bell Street, Preston, Victoria.\"",
+      "lat": -37.7449935,
+      "lon": 145.0004241
+    },
+    "1": {
+      "answer": " The excavation site was located at the corner of Swanston and Franklin streets in Melbourne, Victoria, Australia.",
+      "lat": -37.8073454,
+      "lon": 144.9628678
+    },
+    "2": {
+      "answer": "The VHI site H7822-2387 is located in the city of Melbourne, Victoria, Australia. It consists of four distinct areas within the eastern and western rail reserves and corridors along Bell Street and Miller Street in the suburb of Preston.",
+      "lat": 53.763201,
+      "lon": -2.70309
+    },
+    "3": {
+      "answer": "Example: The excavation site is located in the suburb of Bundoora, on the outskirts of Melbourne.",
+      "lat": -37.6948854,
+      "lon": 145.0622727
+    }
+  },
+  "H7721-0540_Project Report_v002 reduced-Final.pdf.json": {
+    "0": {
+      "answer": "\nDescribe the address of the former McAteer Farming Complex on Barwon Heads Road in Victoria, which is now an excavation site.",
+      "lat": -38.2395066,
+      "lon": 144.3811129
+    },
+    "1": {
+      "answer": "The former McAteer Farming Complex site is located on Barwon Heads Road, approximately 100m southwest of the intersection with Warrigal Road, in the township of Barwon Heads, Victoria.",
+      "lat": -38.274423,
+      "lon": 144.4884287
+    },
+    "2": {
+      "answer": "Example: The former McAteer Farming Complex site is located on the corner of Barwon Heads Road and Mountjoy Parade, Barwon Heads, Victoria.",
+      "lat": -38.5436635,
+      "lon": 143.978213
+    },
+    "3": {
+      "answer": "Example: The Former McAteer Farming Complex excavation site is located within the City of Greater Geelong local government area, specifically within the suburbs of North Shore and Newcomb.",
+      "lat": -37.9697434,
+      "lon": 144.3904526
+    }
+  },
+  "H7822-2400_FinalReport_12072022.pdf.json": {
+    "0": {
+      "answer": "\n    Paragraph one: The excavation site for VHI site H7822-2400 was located at Hartington Street, Glenroy, Vic 3046.",
+      "lat": -37.7007762,
+      "lon": 144.9168035
+    },
+    "1": {
+      "answer": " The VHI site is located in Melbourne, Victoria, Australia.",
+      "lat": -37.8136276,
+      "lon": 144.9630576
+    },
+    "2": {
+      "answer": " The archaeology site is located in Victoria, Australia.",
+      "lat": -36.9847807,
+      "lon": 143.3906074
+    },
+    "3": {
+      "answer": "\nExample: The excavation site is located in the suburbs of Glenroy and Bundoora, Melbourne.",
+      "lat": -37.7062465,
+      "lon": 144.9161373
+    }
+  }
+}

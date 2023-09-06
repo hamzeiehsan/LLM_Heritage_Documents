@@ -1,0 +1,599 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<style>
+    .card-bordered {
+        border: 1px solid #ebebeb;
+    }
+
+    .card {
+        border: 0;
+        border-radius: 0px;
+        margin-bottom: 30px;
+        -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.03);
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.03);
+        -webkit-transition: .5s;
+        transition: .5s;
+    }
+
+    .padding {
+        padding: 3rem !important
+    }
+
+    body {
+        background-color: #f9f9fa
+    }
+
+    .card-header:first-child {
+        border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    }
+
+
+    .card-header {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 15px 20px;
+        background-color: transparent;
+        border-bottom: 1px solid rgba(77, 82, 89, 0.07);
+    }
+
+    .card-header .card-title {
+        padding: 0;
+        border: none;
+    }
+
+    h4.card-title {
+        font-size: 17px;
+    }
+
+    .card-header > *:last-child {
+        margin-right: 0;
+    }
+
+    .card-header > * {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .btn-secondary {
+        color: #4d5259 !important;
+        background-color: #e4e7ea;
+        border-color: #e4e7ea;
+        color: #fff;
+    }
+
+    .btn-xs {
+        font-size: 11px;
+        padding: 2px 8px;
+        line-height: 18px;
+    }
+
+    .btn-xs:hover {
+        color: #fff !important;
+    }
+
+
+    .card-title {
+        font-family: Roboto, sans-serif;
+        font-weight: 300;
+        line-height: 1.5;
+        margin-bottom: 0;
+        padding: 15px 20px;
+        border-bottom: 1px solid rgba(77, 82, 89, 0.07);
+    }
+
+
+    .ps-container {
+        position: relative;
+    }
+
+    .ps-container {
+        -ms-touch-action: auto;
+        touch-action: auto;
+        overflow: hidden !important;
+        -ms-overflow-style: none;
+    }
+
+    .media-chat {
+        padding-right: 64px;
+        margin-bottom: 0;
+    }
+
+    .media {
+        padding: 16px 12px;
+        -webkit-transition: background-color .2s linear;
+        transition: background-color .2s linear;
+    }
+
+    .media .avatar {
+        flex-shrink: 0;
+    }
+
+    .avatar {
+        position: relative;
+        display: inline-block;
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        border-radius: 100%;
+        background-color: #f5f6f7;
+        color: #8b95a5;
+        text-transform: uppercase;
+    }
+
+    .media-chat .media-body {
+        -webkit-box-flex: initial;
+        flex: initial;
+        display: table;
+    }
+
+    .media-body {
+        min-width: 0;
+    }
+
+    .media-chat .media-body p {
+        position: relative;
+        padding: 6px 8px;
+        margin: 4px 0;
+        background-color: #f5f6f7;
+        border-radius: 3px;
+        font-weight: 100;
+        color: #9b9b9b;
+    }
+
+    .media > * {
+        margin: 0 8px;
+    }
+
+    .media-chat .media-body p.meta {
+        background-color: transparent !important;
+        padding: 0;
+        opacity: .8;
+    }
+
+    .media-meta-day {
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        align-items: center;
+        margin-bottom: 0;
+        color: #8b95a5;
+        opacity: .8;
+        font-weight: 400;
+    }
+
+    .media {
+        padding: 16px 12px;
+        -webkit-transition: background-color .2s linear;
+        transition: background-color .2s linear;
+    }
+
+    .media-meta-day::before {
+        margin-right: 16px;
+    }
+
+    .media-meta-day::before, .media-meta-day::after {
+        content: '';
+        -webkit-box-flex: 1;
+        flex: 1 1;
+        border-top: 1px solid #ebebeb;
+    }
+
+    .media-meta-day::after {
+        content: '';
+        -webkit-box-flex: 1;
+        flex: 1 1;
+        border-top: 1px solid #ebebeb;
+    }
+
+    .media-meta-day::after {
+        margin-left: 16px;
+    }
+
+    .media-chat.media-chat-reverse {
+        padding-right: 12px;
+        padding-left: 64px;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        flex-direction: row-reverse;
+    }
+
+    .media-chat {
+        padding-right: 64px;
+        margin-bottom: 0;
+    }
+
+    .media {
+        padding: 16px 12px;
+        -webkit-transition: background-color .2s linear;
+        transition: background-color .2s linear;
+    }
+
+    .media-chat.media-chat-reverse .media-body p {
+        float: right;
+        clear: right;
+        background-color: #48b0f7;
+        color: #fff;
+    }
+
+    .media-chat .media-body p {
+        position: relative;
+        padding: 6px 8px;
+        margin: 4px 0;
+        background-color: #f5f6f7;
+        border-radius: 3px;
+    }
+
+
+    .border-light {
+        border-color: #f1f2f3 !important;
+    }
+
+    .bt-1 {
+        border-top: 1px solid #ebebeb !important;
+    }
+
+    .publisher {
+        position: relative;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 12px 20px;
+        background-color: #f9fafb;
+    }
+
+    .publisher > *:first-child {
+        margin-left: 0;
+    }
+
+    .publisher > * {
+        margin: 0 8px;
+    }
+
+    .publisher-input {
+        -webkit-box-flex: 1;
+        flex-grow: 1;
+        border: none;
+        outline: none !important;
+        background-color: transparent;
+    }
+
+    button, input, optgroup, select, textarea {
+        font-family: Roboto, sans-serif;
+        font-weight: 300;
+    }
+
+    .publisher-btn {
+        background-color: transparent;
+        border: none;
+        color: #8b95a5;
+        font-size: 16px;
+        cursor: pointer;
+        overflow: -moz-hidden-unscrollable;
+        -webkit-transition: .2s linear;
+        transition: .2s linear;
+    }
+
+    .file-group {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .publisher-btn {
+        background-color: transparent;
+        border: none;
+        color: #cac7c7;
+        font-size: 16px;
+        cursor: pointer;
+        overflow: -moz-hidden-unscrollable;
+        -webkit-transition: .2s linear;
+        transition: .2s linear;
+    }
+
+    .file-group input[type="file"] {
+        position: absolute;
+        opacity: 0;
+        z-index: -1;
+        width: 20px;
+    }
+
+    .text-info {
+        color: #48b0f7 !important;
+    }
+
+    .float-container {
+        padding: 30px;
+    }
+
+    .float-child {
+        width: 50%;
+        float: left;
+        padding: 10px;
+    }
+
+    .collapsible {
+        background-color: #777;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+    }
+
+    .active, .collapsible:hover {
+        background-color: #555;
+    }
+
+    .collapsible:after {
+        content: '\002B';
+        color: white;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+
+    .active:after {
+        content: "\2212";
+    }
+
+    .content {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: #f1f1f1;
+    }
+
+    .divfixedcenter {
+        right: 0;
+        left: 0;
+        margin-right: auto;
+        margin-left: auto;
+        min-height: 10em;
+        width: 90%;
+    }
+</style>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+
+    .leaflet-container {
+        height: 600px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    body, h1, h2, h3, h4, h5, h6, pre {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    pre {
+        white-space: pre-wrap;
+    }
+</style>
+<h1 style="text-align: center;">Cultural Heritage Victoria Reports</h1>
+
+<h2 style="text-align: center;">Chatbot and Map Visualization</h2>
+<div class="float-container divfixedcenter">
+    <div class="page-content page-container float-child" id="page-content" style="width:40%; height: 500px">
+        <div class="">
+            <div class="row container d-flex justify-content-center">
+                <div class="col-md-6">
+                    <div class="card card-bordered">
+                        <div class="card-header">
+                            <h4 class="card-title"><strong>Chat With HV Reports</strong></h4>
+                        </div>
+
+
+                        <div class="ps-container ps-theme-default ps-active-y" id="chat-content"
+                             style="overflow-y: scroll !important; height:400px !important;">
+
+                            <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+                                <div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                            </div>
+                            <div class="ps-scrollbar-y-rail" style="top: 0px; height: 0px; right: 2px;">
+                                <div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 2px;"></div>
+                            </div>
+                        </div>
+
+                        <div class="publisher bt-1 border-light">
+                            <img class="avatar avatar-xs"
+                                 src="https://img.icons8.com/color/36/000000/administrator-female.png" alt="...">
+                            <input class="publisher-input" type="text" placeholder="Ask a question">
+                            <span class="publisher-btn file-group">
+                  <i class="fa fa-paperclip file-browser"></i>
+                  <input type="file">
+                </span>
+                            <a id="ask-btn-a" class="publisher-btn text-info" onclick="ask()" data-abc="true"><i
+                                    class="fa fa-paper-plane"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="map" class="float-child" style="width: 55%; height: 600px;"></div>
+</div>
+
+<div style="float:none; clear:both; padding:30px">
+    <br/>
+    <h2 style="text-align: center;">Reports Information</h2>
+    <div id="reports_list" class="divfixedcenter" style="width:70%"></div>
+</div>
+
+<script>
+    function ask() {
+        console.log("Hmmm, clicked")
+        var question = document.getElementsByClassName("publisher-input")[0]
+        console.log(question.value)
+
+        var answer = "",
+            ask_all = function () {
+                // set loading and disable the button
+                var btn = document.getElementById("ask-btn-a");
+                var divchat = document.getElementById("chat-content");
+                btn.innerHTML = "<i class=\"fa fa-spinner\"></i>";
+                btn.style = "pointer-events:none";
+                divchat.innerHTML += `<div class="media media-chat">\
+                                <img class="avatar"\
+                                     src="https://img.icons8.com/color/36/000000/administrator-female.png"\
+                                     alt="...">\
+                                <div class="media-body">\
+                                    <p>${question.value}</p>\
+                                </div>\
+                            </div>`;
+                // send request for chatting
+                var xhr = new XMLHttpRequest();
+                var url = "http://127.0.0.1:5000/ask_from_all_docs?question=" + question.value;
+                xhr.open("GET", url, true);
+                xhr.setRequestHeader("Content-Type", "application/json");
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        answer = xhr.responseText;
+                        console.log(answer);
+                        var answer_array = answer.split(":")
+                        if (answer_array.length > 1) {
+                            answer_array.shift()
+                        }
+                        answer = answer_array.join(" ")
+
+                        divchat.innerHTML += `<div class="media media-chat media-chat-reverse">\
+                                <div class="media-body">\
+                                    <p>${answer}</p>\
+                                </div>\
+                            </div>`;
+                        question.value = "";
+                    } else if (xhr.readyState == 4 && xhr.status != 200) {
+                        divchat.innerHTML += `<div class="media media-chat media-chat-reverse">\
+                                <div class="media-body" style="color:red">\
+                                    <p>The webservice to call LLM is down or an error occurred during chat process - please try again later.</p>\
+                                </div>\
+                            </div>`;
+                    }
+
+                    btn.innerHTML = "<i class=\"fa fa-paper-plane\"></i>";
+                    btn.style = "pointer-events:auto";
+                };
+                xhr.send();
+
+            }
+        ask_all()
+    }
+</script>
+
+<script>
+    var response = "",
+        fetch_all = function () {
+            var xhr = new XMLHttpRequest();
+            var url = "http://127.0.0.1:5000/get_all_models";
+            xhr.open("GET", url, true);
+            xhr.setRequestHeader("Content-Type", "application/json");
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    response = JSON.parse(xhr.responseText);
+                    console.log(response);
+                    addMarkers(response);
+                    addCollapsibles(response);
+                }
+            };
+            xhr.send();
+
+        }
+
+    window.onload = fetch_all();
+
+    const map = L.map('map').setView([-37.00, 144.5], 8);
+
+    const tiles = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.{ext}', {
+        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        subdomains: 'abcd',
+        minZoom: 0,
+        maxZoom: 20,
+        ext: 'png'
+    }).addTo(map);
+
+    const question = document.getElementsByClassName("publisher-input")[0]
+    question.addEventListener("keyup", function(event) {
+        if (event.key === "Enter") {
+            ask();
+        }
+    });
+
+
+    function addCollapsibles(response) {
+        var divreports = document.getElementById("reports_list")
+        for (let i = 0; i < response.length; i++) {
+            var resp_title = response[i][0].split("/").pop();
+            divreports.innerHTML += `<button class="collapsible">${resp_title}</button>\
+                                        <div class="content">\
+                                            <p>Address:${response[i][0]}</p>\
+                                            <p>ID:${response[i][1]}</p>\
+                                            <pre>Significance:${response[i][4]}</pre>
+                                            <pre>Summary:${response[i][5]}</pre>
+                                        </div>`
+        }
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    }
+
+    function addMarkers(response) {
+        for (let i = 0; i < response.length; i++) {
+            if (parseFloat(response[i][7]) < 0) {
+                var resp_title = response[i][0].split("/").pop()
+                console.log(resp_title)
+
+                var resp_summary = response[i][4]
+                console.log(resp_summary)
+                const marker = L.marker([parseFloat(response[i][7]), parseFloat(response[i][6])]).addTo(map)
+                    .bindPopup(`<b>${resp_title}</b><br />${resp_summary}`).openPopup();
+            } else {
+                const marker = L.marker([parseFloat(response[i][6]), parseFloat(response[i][7])]).addTo(map)
+                    .bindPopup(`<b>${resp_title}</b><br />${resp_summary}`).openPopup();
+            }
+        }
+    }
+
+
+    function onMapClick(e) {
+        popup
+            .setLatLng(e.latlng)
+            .setContent(`You clicked the map at ${e.latlng.toString()}`)
+            .openOn(map);
+    }
+
+    map.on('click', onMapClick);
+
+</script>
