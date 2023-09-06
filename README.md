@@ -22,7 +22,7 @@ Dependencies:
 ## Usage
 To run and load the 7B LLMs, you need to have **NVIDIA GPU** with at least **16GB VRAM** We tested our work with **NVIDIA Tesla V100 PCIe 16 GB**.
 ### 1. Loading documents
-
+**NOTE:** Because we cannot share the actual dataset used for the demo, we put only one similar document that is publicly available. The sample document can be found in [NT-EPA Website](https://ntepa.nt.gov.au/__data/assets/pdf_file/0018/1122732/appendix-c-heritage-assessment-report.pdf). Consequently, when you run the demo notebook or run the whole program using this sample document, the results will not be the same.
 Source folder is defined as a parameter in HVConstants.py, every document in this folder can be simply analysed using:
 
 ```commandline
